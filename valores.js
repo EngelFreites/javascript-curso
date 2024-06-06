@@ -12,17 +12,13 @@
 2 + 3; // 5
 2 * 3; // 6
 100 + 4 * 1; // 104
-(4 /
-  2(
-    //2
-    100 + 4
-  )) *
-  11// ! Cadenas de texto(String) // 1144
 
-  //Las cadenas se utilizan para representar texto.
-  //Se escriben encerrando su contenido entre comillas.
+// ! Cadenas de texto(String)
 
-  `Saltos de línea (los caracteres que obtienes al presionar enter) 
+//Las cadenas se utilizan para representar texto.
+//Se escriben encerrando su contenido entre comillas.
+
+`Saltos de línea (los caracteres que obtienes al presionar enter) 
 solo se pueden incluir cuando la cadena está entre acentos graves`; //acentos graves
 
 ("Acostado en el océano,"); // comillas dobles
@@ -81,3 +77,16 @@ true || false; // true
 // ? Es un operador unario que invierte el valor dado; !true produce false y !false produce true.
 !true; // false
 !false; // true
+
+// ! Valores Vacios
+undefined; // no definido
+null; // valor nulo
+
+// ? ejemplo de todo lo visto
+let number = "5";
+
+if (typeof number == "number") {
+  number + 5;
+} else {
+  `${number} no es un numero`;
+}
