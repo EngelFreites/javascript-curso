@@ -10,17 +10,17 @@ true; // Una expresión que evalúa a true
 5 + 3; // Una expresión que evalúa a 8
 10 - 2; // Una expresión que evalúa a 8
 
-//?Para atrapar y retener valores, JavaScript proporciona una cosa llamada un enlace, o variable:
+//?Para atrapar y retener valores, JavaScript proporciona una cosa llamada variable:
 
 let caught = 5 * 5;
 
-//?Después de que se haya definido un enlace, su nombre se puede usar como una expresión.
+//?Después de que se haya definido un variable, su nombre se puede usar como una expresión.
 
 let ten = 10;
 console.log(ten * ten);
 // → 100
 
-//?Cuando un enlace apunta a un valor, eso no significa que esté atado a ese valor para siempre.
+//?Cuando un variable apunta a un valor, eso no significa que esté atado a ese valor para siempre.
 
 let mood = "light";
 console.log(mood);
@@ -30,7 +30,7 @@ console.log(mood);
 // → dark
 
 //?hay una serie de palabras que están “reservadas para su uso” en futuras versiones de JavaScript,
-//?las cuales tampoco se pueden usar como nombres de enlaces.
+//?las cuales tampoco se pueden usar como nombres de variables.
 
 /*break case catch class const continue debugger default
 delete do else enum export extends false finally for
@@ -42,11 +42,12 @@ switch this throw true try typeof var void while with yield*/
 
 //?Cuando tu programa contiene más de una sentencia, las sentencias se ejecutan como si fueran una historia, de arriba hacia abajo.
 
-let elNumero = Number(prompt("Elige un número")); //pedimos un numero
+let elNumero = prompt("Elige un número"); //pedimos un numero
 
 console.log("Tu número es la raíz cuadrada de " + elNumero * elNumero); //esto se ejecuta luego de la primera
 
 // ! Ejecución condicional
+
 //? La ejecución condicional se crea con la palabra clave if en JavaScript.
 
 /*La ejecución condicional se crea con la palabra clave if en JavaScript. 
@@ -54,6 +55,7 @@ En el caso simple, queremos que cierto código se ejecute si, y solo si,
 una cierta condición es verdadera.  */
 
 let elNumero2 = Number(prompt("Elige un número"));
+
 if (typeof elNumero != "string") {
   console.log("Tu número es la raíz cuadrada de " + elNumero2 * elNumero2);
 }

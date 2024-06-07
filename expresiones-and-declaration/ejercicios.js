@@ -1,3 +1,5 @@
+//?                                   Declaracion de variables y uso del promp
+
 // ! EJERCICIO 1
 /*Vamos a trabajar un poco con la consola para ir amigandonos con ella ya que será nuestra mejor amiga de ahora en más.
 1.-Declara una variable llamada nombre en tu consola y asignale tu nombre.
